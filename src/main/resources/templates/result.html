@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Result </title>
+</head>
+<body>
+
+
+    <div>
+        <span th:text="'Your Id = ' + ${person.id}"></span><br/>
+        <span th:text="'Your Name = ' + ${person.name}"></span><br/>
+        <span th:text="${person.toString()}"></span>
+    </div>
+
+
+</body>
+</html>

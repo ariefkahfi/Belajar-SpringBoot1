@@ -1,0 +1,3 @@
+com\arief\boot\domain\Person.class
+com\arief\boot\Main\App.class
+com\arief\boot\Controllers\MainController.class

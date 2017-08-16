@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>For Loop Using ThymeLeaf</title>
+</head>
+<body>
+
+    <table>
+        <tr th:each="it: ${#numbers.sequence(1,10,1)}">
+            <td th:text="${it}"></td>
+        </tr>
+    </table>
+
+    <div th:text="${#strings.toUpperCase('arief')}"></div>
+
+    <div th:each="a: ${#numbers.sequence(1,20,2)}">
+        <div th:text="${a}"></div>
+    </div>
+
+
+</body>
+</html>

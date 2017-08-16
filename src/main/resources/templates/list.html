@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>List Page By ThymeLeaf</title>
+</head>
+<body>
+
+
+<table>
+    <tr th:each="item: ${data}">
+        <td th:text="'Nama Item : ' + ${item}"></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
